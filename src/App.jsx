@@ -50,7 +50,7 @@ const tempWatchedData = [
 const average = (arr) =>
   arr.reduce((acc, cur, i, arr) => acc + cur / arr.length, 0);
 
-const API_KEY = 'aedc39d2';
+const API_KEY = import.meta.env.VITE_API_KEY;
 // const API_KEY = '8e6883430a24219251a6e2f97b6d0cf9';
 
 const App = () => {
