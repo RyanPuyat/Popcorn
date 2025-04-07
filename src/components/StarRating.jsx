@@ -12,9 +12,9 @@ const starContainerStyle = {
 };
 
 const StarRating = ({
-  maxRating = 5,
+  maxRating = 10,
   color = '#FFBF00',
-  size = 48,
+  size = 24,
   messages = [],
   defaultRating = 0,
   onSetRating,
